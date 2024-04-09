@@ -1412,6 +1412,7 @@ async function parseConfig(
     releaseSearchDepth: config['release-search-depth'],
     commitSearchDepth: config['commit-search-depth'],
     sequentialCalls: config['sequential-calls'],
+    signoff: defaultConfig['signoff'],
   };
   return {config: repositoryConfig, options: manifestOptions};
 }
